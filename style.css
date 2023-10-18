@@ -1,0 +1,126 @@
+/* NOTE: body * ---: Means the colour OR changes will be only within the container.
+      * body ---: Means the colour OR changes will be outside the container.  */
+
+* body {
+    background-color: aqua;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.main{
+    background-color: white;
+    width: 40%;
+    height: 60%;
+    padding: 30px;
+    border-radius: 10px;
+    /* display: none; */
+}
+
+.main:hover{
+    background-color: gray;
+}
+
+/* This Style Is For Head */
+.head{
+   /* font-weight: bolder; */
+   color: teal;
+   font-style: italic;
+   font-size: larger;
+}
+
+.link{
+    margin-top: -10px;
+    text-align: left;
+    font-size: 12px;
+}
+
+.email{
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 5px;
+    border-style: none;
+    background-color:thistle;
+    padding: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+    outline: 2px solid blueviolet;
+}
+
+.email:hover{
+    background-color:wheat;
+}
+.icon{
+    text-align: left;
+    margin: 6px;
+    justify-content: space-between; 
+    margin-right: 5%;
+    margin-top: 3%;
+}
+
+.btn1{
+    /* margin: 6px; */
+    background-color: lightgreen;
+    padding: 8px;
+    font-size: 12px;;
+    border-radius: 2px;
+    width: 20px;
+    text-align: left;
+    margin-right: 4%;
+    margin-left: -1.5%;
+}
+
+.btn2{
+    font-size: 12px;
+}
+
+.social{
+    /* background-color: violet; */
+    border-style: none;
+    padding: 4px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 5%;
+}
+
+.facebook{
+    background-color: blue;
+    border-style: none;
+    padding: 4px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 10%;
+}
+
+.facebook:hover{
+    background-color: deeppink;
+}
+
+.google{
+    background-color: goldenrod;
+    border-style: none;
+    padding: 4px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 10%;
+}
+
+.google:hover{
+    background-color: blanchedalmond;
+}
+.twitter{
+    background-color: palegoldenrod;
+    border-style: none;
+    padding: 4px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 4%;
+}
+
+.twitter:hover{
+    background-color: purple;
+}
+.link2{
+    margin-left: 5%;
+}
